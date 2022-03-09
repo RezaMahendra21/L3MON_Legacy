@@ -20,7 +20,12 @@ A cloud based remote android managment suite, powered by NodeJS
 - File Explorer & Downloader
 - Command Queuing
 - Built In APK Builder
-
+## Features Coming Soon!
+- Built in APK Binder migrated from AhMyth
+- View Camera 
+- Record Mic
+- Standalone L3MON payload with new activity
+- SDK changes to target more modern android devices
 ## Prerequisites 
  - Java Runtime Environment 8
     - See [installation](#Installation) for OS specifics
