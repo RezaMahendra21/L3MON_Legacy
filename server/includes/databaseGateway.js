@@ -7,11 +7,11 @@ const
 
 db.defaults({
     admin: {
-        username: 'admin',
+        username: '',
         password: '',
-        loginToken: '',
         logs: [],
-        ipLog: []
+        ipLog: [],
+        register: true
     },
     clients: []
 }).write()
@@ -46,5 +46,3 @@ module.exports = {
     maindb: db,
     clientdb: clientdb,
 };
-
-
