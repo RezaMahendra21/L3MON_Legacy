@@ -54,16 +54,7 @@ A cloud based remote android managment suite, powered by NodeJS
     - `pm2 start index.js` <-- start the script
     - `pm2 startup` <- to run L3MON on startup
 
-6. Set a Username & Password
-    1. Stop L3MON `pm2 stop index`
-    2. Open `maindb.json` in a text editor
-    3. under `admin` 
-        - set the `username` as plain text
-        - set the `password` as a LOWERCASE MD5 hash
-    4. save the file
-    5. run `pm2 restart all`
-
-7. in your browser navigate to `http://<SERVER IP>:22533`
+6. Create an Account in your browser navigate to `http://<SERVER IP>:22533/register`
     
 It's recommended to run L3MON behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 
