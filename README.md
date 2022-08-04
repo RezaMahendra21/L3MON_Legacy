@@ -5,6 +5,7 @@ A cloud based remote android managment suite, powered by NodeJS
 
 ## Tested on
 - Debian (Working)
+- Ubuntu (Working)
 - Termux (Working) 
 - Kali (Working)
 - Parrot (Working)
