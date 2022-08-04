@@ -10,13 +10,9 @@ const createToken = (user) => sign({
 const verifyToken = (req, res, next) => {
   const token = req.cookies['x-access-token'];
   if (!token) {
-    var err = new Error("Not authorized! Go back!");
-    err.status = 400;
-    return res.render("error", {
-      pageTitle: "Access Denied",
-      errorStatus: err.status,
-      errMessage: err
-    });
+    var err = new Error("Unauthorized! Go back!");
+    err.status = 401;
+    return res.redirect('/login');
   }
   try {
     const validToken = verify(token, 'secretkeypleasechangeme');
@@ -25,13 +21,9 @@ const verifyToken = (req, res, next) => {
       return next();
     }
   } catch (err) {
-    var err = new Error("Not authorized! Go back!");
-    err.status = 400;
-    return res.render("error", {
-      pageTitle: "Access Denied",
-      errorStatus: err.status,
-      errMessage: err
-    });
+    var err = new Error("Unauthorized! Go back!");
+    err.status = 401;
+    return res.redirect('/login');
   }
 };
 

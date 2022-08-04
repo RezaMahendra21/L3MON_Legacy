@@ -65,8 +65,9 @@ client_io.on('connection', (socket) => {
 
 
 // get the admin interface online
-app.listen(CONST.web_port);
-
+app.listen(CONST.web_port, () => {
+  console.log(`L3MON is Running on Port: ${CONST.web_port}`);
+});
 app.set('view engine', 'ejs');
 app.set('views', './assets/views');
 app.use(express.static(__dirname + '/assets/webpublic'));
