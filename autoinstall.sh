@@ -176,5 +176,5 @@ if [ "$ENVIRONMENT" = "production" ]; then
   sudo certbot --nginx -d $DOMAIN -d l3mon.$DOMAIN
 else
   echo "Setting up certbot staging server"
-  sudo certbot --nginx -d $DOMAIN --agree-tos --staging --register-unsafely-without-email --no-redirect
+  sudo certbot --nginx -d $DOMAIN -d l3mon.$DOMAIN --agree-tos --staging --register-unsafely-without-email --no-redirect
 fi
