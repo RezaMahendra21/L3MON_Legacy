@@ -2,8 +2,11 @@
 <img src="https://github.com/D3VL/L3MON/raw/master/server/assets/webpublic/logo.png" height="60"><br>
 A cloud based remote android managment suite, powered by NodeJS
 </p>
-
-
+## Tested on
+- Debian (Working)
+- Termux (Working) 
+- Kali (Working)
+- Parrot (Working)
 
 ## Features
 - GPS Logging
