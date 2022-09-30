@@ -31,7 +31,6 @@ A cloud based remote android managment suite, powered by NodeJS
 - Record Mic
 - Standalone L3MON payload with new activity
 - Seperate L3MON payload with no activity for binding
-- SDK changes to target more modern android devices
 ## Prerequisites 
  - Java Runtime Environment 8
     - See [installation](#Installation) for OS specifics
