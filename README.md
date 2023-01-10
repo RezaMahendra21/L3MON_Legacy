@@ -4,11 +4,12 @@ A cloud based remote android managment suite, powered by NodeJS
 </p>
 
 ## Tested on
-- Debian ✅
-- Ubuntu ✅
+- Debian✅
+  - Ubuntu ✅
+  - Kali ✅
+  - Parrot ✅
 - Termux ✅
-- Kali ✅
-- Parrot ✅
+
 
 ## Features
 - GPS Logging
