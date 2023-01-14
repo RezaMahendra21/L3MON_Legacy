@@ -29,7 +29,6 @@ A cloud based remote android managment suite, powered by NodeJS
 ## Features Coming Soon!
 - Built in APK Binder migrated from AhMyth
 - View Camera 
-- Record Mic
 - Standalone L3MON payload with new activity
 - Seperate L3MON payload with no activity for binding
 ## Prerequisites 
