@@ -78,7 +78,7 @@ Please have a look through the current issues, open and closed to see if your is
 
 ## Thanks
 L3MON Builds off and utilizes serveral opensource softwares, Without these, L3MON Wouldn't be what it is!
- - Inspiration for the project and the basic building blocks for the Android App are based off [AhMyth](https://github.com/AhMyth/AhMyth-Android-RAT) 
+ - Inspiration for the project and the basic building blocks for the Android App are based off [AhMyth-Legacy](https://github.com/AhMyth/AhMyth-Android-RAT) 
  - [express](https://github.com/expressjs/express)
  - [node-geoip](https://github.com/bluesmoon/node-geoip)
  - [lowdb](https://github.com/typicode/lowdb)
