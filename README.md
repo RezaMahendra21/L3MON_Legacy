@@ -3,14 +3,6 @@
 A cloud based remote android managment suite, powered by NodeJS
 </p>
 
-## Tested on
-- Debian✅
-  - Ubuntu ✅
-  - Kali ✅
-  - Parrot ✅
-- Termux ✅
-
-
 ## Features
 - GPS Logging
 - Microphone Recording
@@ -26,11 +18,7 @@ A cloud based remote android managment suite, powered by NodeJS
 - File Explorer & Downloader
 - Command Queuing
 - Built In APK Builder
-## Features Coming Soon!
-- Built in APK Binder migrated from AhMyth
-- View Camera 
-- Standalone L3MON payload with new activity
-- Seperate L3MON payload with no activity for binding
+
 ## Prerequisites 
  - Java Runtime Environment 8
     - See [installation](#Installation) for OS specifics
