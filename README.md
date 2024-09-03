@@ -3,7 +3,7 @@
 Suite manajemen android jarak jauh berbasis cloud, didukung oleh NodeJS
 </p>
 
-<p align="center">**hallo saya Reza Mahendra** !! </p>
+<h1 align="center">Hallo saya Reza Mahendra</h1>
 
 **Peringatan** !!
 
